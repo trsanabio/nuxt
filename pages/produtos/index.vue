@@ -33,7 +33,7 @@
         },
 
         async asyncData( {$axios} ){
-            const products = await $axios.$get('https://jsonplaceholder.typicode.com/posts?_limit=3')
+            const products = await $axios.$get('https://jsonplaceholder.typicode.com/posts?_limit=10')
             // console.log(context);
             // await new Promise ( (resolve) => {
             //     setTimeout( () => {

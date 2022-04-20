@@ -16,6 +16,11 @@ export default {
     ]
   },
 
+  // Uma vez que o middleware estiver aqui, não importa a rota, ele vai executar
+  // router: {
+  //   middleware: 'auth'
+  // },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],

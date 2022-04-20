@@ -1,19 +1,18 @@
 <template>
     <div>
-        <h1>Serviços</h1>
+        <h1>Produtos</h1>
         <ul class="nav bg-dark">
             <li class="nav-item">
-                <nuxt-link :to="{path: '/servicos/desenvolvimento-de-sites', params: {} }" class="nav-link active text-warning">Desenvolvimento de Sites</nuxt-link>
+                <nuxt-link :to="{path: '/produtos/produto-a', params: {} }" class="nav-link active text-warning">Produto A</nuxt-link>
             </li>
             <li class="nav-item">
-                <nuxt-link :to="{path: '/servicos/marketing-digital', params: {} }" class="nav-link text-warning">Marketing Digital</nuxt-link>
+                <nuxt-link :to="{path: '/produtos/produto-b', params: {} }" class="nav-link text-warning">Produto B</nuxt-link>
             </li>
         </ul>
         <br />
         <nuxt-child></nuxt-child>
     </div>
 </template>
-
 
 <script>
 
@@ -30,3 +29,7 @@
     };
 
 </script>
+
+<style lang="scss" scoped>
+
+</style>

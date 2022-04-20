@@ -1,9 +1,32 @@
 <template>
-  <Tutorial/>
+
+  <div>
+    <pre>
+      <!-- state por ser um módulo e user pelo nome do módulo na pasta store -->
+      {{ $store.state.user }}
+    </pre>
+
+    <pre>
+      <!-- user foi mapeado no computed deste arquivo -->
+      {{ user }}
+    </pre>
+
+
+  </div>
+
+  <!-- <Tutorial/> -->
 </template>
 
 <script>
+import { mapState } from 'vuex';
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+
+  computed: {
+    ...mapState({
+      user: state => state.user
+    })
+  },
+
 }
 </script>

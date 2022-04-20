@@ -53,6 +53,15 @@
     export default {
         name: '',
 
+        head (){
+            return{
+                title: 'Serviços',
+                meta: [
+                    {hid: 'description', name: 'description', content: 'Página de Serviços' },
+                ]
+            }
+        },
+
         middleware(){
             console.log('middleware serviços');
         },

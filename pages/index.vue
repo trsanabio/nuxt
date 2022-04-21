@@ -7,8 +7,6 @@
       {{ $store.state.user }}
     </pre>
 
-    <!-- <button v-tooltip="'You have ' + count + ' new messages.'"> -->
-
     <pre>
       <!-- user foi mapeado no computed deste arquivo -->
       {{ user }}
